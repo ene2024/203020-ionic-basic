@@ -1,0 +1,64 @@
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 3</title>
+    <title>Práctica 4</title>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<cuerpo>
+    <h1> Práctica 3. Registro de usuario</h1>
+
+    <div class = "fila">
+        <label for = "usuario"> Usuario: </label>
+        <tipo de entrada = "texto" id = "usuario">
+    </div>
+
+    <div class = "fila">
+        <label for = "password"> Contraseña: </label>
+        <tipo de entrada = "contraseña" id = "contraseña">
+    </div>
+
+    <div class = "fila botones">
+        <button onclick = "login()"> Iniciar Sesión</button>
+        <button onclick = " registro()"> Registro </button>
+    </div>
+
+    <p id="mensaje"></p>
+
+
+
+    <ion-app>
+        <ion-header>
+            <barra de herramientas de iones>
+                <ion-title>PRESUPUESTO</ion-title>
+            </ion-toolbar>
+        </ion-header>
+
+        <contenido de iones>
+            <div class="fila">
+                <ion-label for="gasto">Tipo de Gasto: </ion-label>
+                <ion-input id="gasto" fill="outline"></ion-input>
+            </div>
+
+            <div class="fila">
+                <ion-label for="monto">Monto: </ion-label>
+                <ion-input id="monto"></ion-input>
+            </div>
+
+            <div class="fila">
+                <ion-button onclick="agregarAarreglo()">Guardar </ion-button>
+            </div>
+        </ion-content>
+    </ion-app>
+
+</cuerpo>
+
+<script src="imprimir.js"> </script>
+<script src="imprimir.js"></script>
+
+</html>
